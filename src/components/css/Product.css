@@ -1,0 +1,196 @@
+.okvir{
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 120px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.okvir .box {
+  background-color: none;
+  width: 50%;
+  margin: 10px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 25px;
+}
+.bImg{
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.text{
+    font-size: large;
+    
+}
+.switch-button-container {
+    display: inline-flex;
+    align-items: center;
+    border: 3px solid #5c6bbd;
+    border-radius: 15px;
+  }
+  .naslov{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .switch-button {
+     border: 3px solid #5c6bbd; 
+    border-radius: 10px; 
+    background: none;
+    
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: none;
+    
+  }
+  
+  .divider {
+    width: 2px;
+    height: 30px;
+    background-color: #5c6bbd;
+    margin: 0 10px;
+  }
+  
+  .dimmed {
+    opacity: 0.2;
+    background: none;
+  }
+  .switch-button {
+    transition: opacity 0.1s linear;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .switch-button:hover {
+    background: none;
+    background-color: none;
+    opacity: 1;
+    transform: scale(1.1); 
+  }
+  
+  .switch-button:hover .text {
+    opacity: 0;
+  }
+  
+  .switch-button:hover + .paragraph {
+    opacity: 1;
+  }
+  
+  .switch-button .text {
+    font-size: 14px;
+  }
+  
+  .switch-button .text.active {
+    font-size: 20px;
+  }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #f7f7f7;
+      border-radius: 0 0 12px 12px;
+      text-align: center;
+      margin: auto;
+      width: fit-content; 
+      padding: 5px;
+      padding-bottom: 10px;
+      margin-bottom: 200px;
+    }
+    .topnav button {
+      color: #1582cf;
+      border-color: #1582cf;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      /* font-size: 15px; */
+      font-size: 30px;
+      background: white;
+      border-radius: 5px;
+      margin: 0 15px;
+      /* width: 80px; */
+      width: 150px;
+      transition: ease-in 0.2s;
+      cursor: pointer;
+    }
+
+    .topnav button:hover {
+      background-color: rgb(42 76 111);
+      border-color: black;
+      color: white;
+      transition: ease-in 0.2s;
+      box-shadow: 0 0 2px 1px #9496a7;
+    }
+    
+    ul {
+      list-style-type:disc;
+
+  }
+
+  li {
+      margin-bottom: 10px; 
+  }
+  .okvirM{
+    
+    background: white;
+
+    margin: 30px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+    border-radius: 15px;
+    
+
+}
+.okvirSlikeM{
+
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #b8cdeb;
+  background: #f1f4f7;
+  border-radius: 0 0 15px 15px;
+  margin-top: 60px;
+
+}
+.stickyElement{
+  z-index: 1;
+  position: sticky;
+  top:100px
+  
+}
+.stickyElementM{
+  position: sticky;
+  top:62px
+}
+@media only screen and (min-width: 600px) and (max-width: 670px) {
+  .stickyElementM{
+    position: sticky;
+    top:65px
+  }
+}
+@media only screen and (min-width: 670px) and (max-width: 740px) {
+  .stickyElementM{
+    position: sticky;
+    top:70px
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 1270px) {
+  .stickyElementM{
+    position: sticky;
+    top:80px
+  }
+
+}
+@media only screen and (min-width: 1270px) and (max-width: 1501px) {
+  .stickyElement{
+    position: sticky;
+    top:80px
+  }
+}

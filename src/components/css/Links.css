@@ -1,0 +1,20 @@
+.custom-link {
+    text-decoration: none;
+    color: #094395;
+    opacity: 1;
+  }
+  .custom-link2 {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 1;
+    
+  }
+  .custom-link:hover{
+    opacity: 1;
+    color: #0026bb;
+    transition: 0.5s;
+  }
+  .customLink{
+text-decoration: none;
+color: #ffffff;
+  }
