@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-site-one/static/css/main.1d661ac1.css",
-    "main.js": "/react-site-one/static/js/main.094544d0.js",
+    "main.css": "/react-site-one/static/css/main.378bbed8.css",
+    "main.js": "/react-site-one/static/js/main.e73ebcca.js",
     "static/media/peelS.png": "/react-site-one/static/media/peelS.ec1eac2d31c63eb639a6.png",
     "static/media/saturatedPaper.png": "/react-site-one/static/media/saturatedPaper.e4cb0fe2b022c554555b.png",
     "static/media/bw80Pic.png": "/react-site-one/static/media/bw80Pic.fbbce6babfe50d9e67a3.png",
@@ -21,11 +21,11 @@
     "static/media/scrll.png": "/react-site-one/static/media/scrll.5ffb5406e904ee35e696.png",
     "static/media/flagEng.png": "/react-site-one/static/media/flagEng.d629e0e05d763ab2b698.png",
     "index.html": "/react-site-one/index.html",
-    "main.1d661ac1.css.map": "/react-site-one/static/css/main.1d661ac1.css.map",
-    "main.094544d0.js.map": "/react-site-one/static/js/main.094544d0.js.map"
+    "main.378bbed8.css.map": "/react-site-one/static/css/main.378bbed8.css.map",
+    "main.e73ebcca.js.map": "/react-site-one/static/js/main.e73ebcca.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d661ac1.css",
-    "static/js/main.094544d0.js"
+    "static/css/main.378bbed8.css",
+    "static/js/main.e73ebcca.js"
   ]
 }
