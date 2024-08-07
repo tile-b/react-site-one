@@ -45,6 +45,7 @@ const Products = ({language, toggleLanguage}) => {
 <a href="#plavi"><button>80BW</button></a>
 <a href="#zeleni"><button>80P</button></a>
 <a href="#debeli"><button>110BW</button></a>
+<a href="#120"><button>120BW</button></a>
 <a href="#krem"><button>125S</button></a>
 </div>
 
@@ -155,6 +156,34 @@ Final appearance after transfering on textil - MATTE.<br/><br/>
 
  </div>
 
+{/* 120 */}
+ <div className="okvir" id="120">
+
+ <div className="box" style={{display: 'flex', justifyContent: 'center'}}><img className="bImg" src={bw80} alt="bw120" ></img></div>
+
+<div className="box"><h3 style={{textAlign: 'center'}}>TEXIMAX CP-e 120 BW</h3><p style={{paddingRight: '90px',paddingLeft: '90px'}}>
+The high quality transfer paper for Screen printing on textile with water based inks.<br/><br />
+<b>Properties:</b><br />
+<ul>
+        <li>weight 120g./sm</li>
+        <li>designed for cold peel transfers</li>
+
+</ul>
+<b>Screen printing:</b><br/><br/>
+Printing side is the side with thicker silicone coating and 
+is much easier for peeling.<br/>
+<br/>
+Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
+<b>Default Packaging:</b><br /><br />
+&nbsp;&nbsp;&nbsp;200 Sheets 100 x 70 cm<br/>
+&nbsp;&nbsp;&nbsp;400 Sheets 50 x 70 cm<br /><br />
+<i>*other sizes are available on customer request</i></p>
+<Pdf125s/>
+</div>
+
+ </div>
+
+
  
  {/* kremPC */}
  <div className="okvir" id="krem">
@@ -193,6 +222,7 @@ Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
 <a href="#plavi"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>80BW</button></a>
 <a href="#zeleni"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>80P</button></a>
 <a href="#debeli"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>110BW</button></a>
+<a href="#debeli"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>120BW</button></a>
 <a href="#krem"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>125S</button></a>
 </div>
 
@@ -271,6 +301,31 @@ Final appearance after transfering on textil - <b>MATTE.</b><br/><br/>
 
 </div>
 <div className="okvirSlikeM"><img src={bw80} alt="bw110" style={{width: '60%'}} ></img></div>
+ </div>
+
+{/* 120 */}
+ <div id="120" className="okvirM">
+<div><h3 style={{textAlign: 'center'}}>TEXIMAX CP-e 120BW</h3><p style={{paddingRight: '30px',paddingLeft: '30px'}}>
+ The high quality transfer paper for Screen printing on textile with water based inks.<br/><br />
+<b>Properties:</b><br />
+<ul>
+        <li>weight 120g./sm</li>
+        <li>designed for cold peel transfers</li>
+
+</ul>
+<b>Screen printing:</b><br/><br/>
+Printing side is the side with thicker silicone coating and 
+is much easier for peeling.<br/>
+<br/>
+Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
+<b>Default Packaging:</b><br /><br />
+&nbsp;&nbsp;&nbsp;200 Sheets 100 x 70 cm<br/>
+&nbsp;&nbsp;&nbsp;400 Sheets 50 x 70 cm<br /><br />
+<i>*other sizes are available on customer request</i></p>
+<Pdf125s/>
+
+</div>
+<div className="okvirSlikeM"><img src={bw80} alt="bw120" style={{width: '60%'}} ></img></div>
  </div>
 
 {/* kremM */}

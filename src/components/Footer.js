@@ -38,13 +38,13 @@ function Footer({isMobile,language}) {
         <h1><Link to='/contact' className='customLink'>{language === 'en' ? 'Contact' : 'Kontakt'}</Link></h1>
       )}
       <p style={{ textAlign: 'left',lineHeight: '20px', fontSize: '12px',width:'fit-content' }}>
-      <p>office.powermax@gmail.com</p>
-      <p>gile.borocki@gmail.com</p>
-      <p>bobanradonic@gmail.com</p>
+      <p style={{fontSize: 'smaller'}}>office.powermax@gmail.com</p>
+      <p style={{fontSize: 'smaller'}}>gile.borocki@gmail.com</p>
+      <p style={{fontSize: 'smaller'}}>bobanradonic@gmail.com</p>
       
       {/* bobanradonic@gmail.com */}
 
-        <div><i style={{ opacity: '0.5' }}>Tel:&nbsp;&nbsp;</i>+381 60-33-77-946<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+381 60 02-02-02-8 </div></p>
+        <div><i style={{ opacity: '0.5' }}>Tel:&nbsp;&nbsp;</i>+381&nbsp;60-33-77-946<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+381&nbsp;60&nbsp;02-02-02-8 </div></p>
         {/* bobanov br fona */}
     </span>
     </div>

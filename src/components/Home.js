@@ -25,7 +25,16 @@ return(
 
   <div className='container' style={{ marginTop: '10px'}}>
     
-  <p style={{ fontFamily: 'sans-serif', lineHeight: '1.5',paddingLeft: '250px', paddingRight:'250px', fontSize: 'x-large' }}>
+  <p
+  style={{
+    fontFamily: 'sans-serif',
+    lineHeight: '1.5',
+    paddingLeft: !isMobile ? '250px' : '0',
+    paddingRight: !isMobile ? '250px' : '0',
+    fontSize: 'x-large'
+  }}>
+
+
     {/* {language === 'en' ? 'Company' : 'Kompanija'} <b>Powermax DOO Backa Palanka</b>
     {language === 'en' ? ' is established in 2007 in Backa Palanka with the goal of producing the highest quality siliconised paper.' :
       ' je osnovana 2007. godine u Bačkoj Palanci sa ciljem proizvodnje visokokvalitetnog silikonizovanog papira.'}

@@ -23,21 +23,25 @@ return (
 <h2><b style={{fontSize: '30px'}}>Gligorije Borocki <i style={{fontSize: '22px'}}>{language === 'en' ? '(General Director)' : '(Generalni Direktor)'}</i></b><br />
 <br /><br/>
 {/* Tehnicki direktor */}
-                <p style={{paddingBottom: '10px'}}> 
-                <i><img title='mail' src={mail} alt='mail' style={{width: '30px', height: '30px', marginRight: '5px'}}/></i>
+                <p style={{paddingBottom: '30px'}}> 
+                <i style={{ display: 'inline-block', width: '35px', height: '28px', lineHeight: '10px', textAlign: 'center', verticalAlign: 'middle' }}>
+                  <img title='mail' src={mail} alt='mail' style={{ width: '100%', height: '100%', objectFit: 'contain', verticalAlign: 'middle'}}/></i>
                 <span className="paddin shrinkTxt" style={{fontSize: '19px'}}>gile.borocki@gmail.com</span>
                 </p>
                  {/* bobanradonic@gmail.com */}
 
-                <p style={{paddingBottom: '10px'}}> 
-                <i><img title='fon' src={phone} alt='phone' style={{width: '30px', height: '30px', marginRight: '5px'}}/></i>
-                <span className="paddin">+381 60 33-77-946</span>
+                <p style={{paddingBottom: '30px'}}> 
+                {/* <i><img title='fon' src={phone} alt='phone' style={{width: '30px', height: '30px', marginRight: '5px'}}/></i> */}
+                <i style={{ display: 'inline-block', width: '35px', height: '28px', lineHeight: '10px', textAlign: 'center', verticalAlign: 'middle' }}>
+    <img src={phone} alt='phone' style={{ width: '100%', height: '100%', objectFit: 'contain', verticalAlign: 'middle' }} />
+</i>
+                <span className="paddin" style={{fontSize: 'smaller'}}>+381 60 33-77-946</span>
                 </p>
                 {/* +381 60 02-02-02-8  dodaj link ka linkedinu*/}
 
-                <p style={{paddingBottom: '20px'}}> 
-                <i><a href="https://www.linkedin.com/in/gligorije-borocki-30574b20a/?originalSubdomain=rs"   target="_blank" rel="noopener noreferrer" >
-                <img title='linkedin' src={linkedin} alt='linkedin' style={{width: '30px', height: '30px', marginRight: '5px'}}/>
+                <p style={{paddingBottom: '30px'}}> 
+                <i style={{ display: 'inline-block', width: '35px', height: '28px', lineHeight: '10px', textAlign: 'center', verticalAlign: 'middle' }}><a href="https://www.linkedin.com/in/gligorije-borocki-30574b20a/?originalSubdomain=rs"   target="_blank" rel="noopener noreferrer" >
+                <img title='linkedin' src={linkedin} alt='linkedin' style={{ width: '100%', height: '100%', objectFit: 'contain', verticalAlign: 'middle'}}/>
                 </a></i>
                 <span className="paddin"><a style={{textDecoration: 'none',color: '#24569b'}}
   href="https://www.linkedin.com/in/gligorije-borocki-30574b20a/?originalSubdomain=rs" 
@@ -56,27 +60,28 @@ return (
 <h2><b style={{fontSize: '30px'}}>Slobodan Radonic <i style={{fontSize: '22px'}}>{language === 'en' ? '(Technical Director)' : '(Tehnicki Direktor)'}</i></b><br />
 <br /><br/>
 {/* Tehnicki direktor */}
-                <p style={{paddingBottom: '10px'}}> 
-                <i><img title='mail' src={mail} alt='mail' style={{width: '30px', height: '30px', marginRight: '5px'}}/></i>
+                <p style={{paddingBottom: '30px'}}> 
+                <i style={{ display: 'inline-block', width: '35px', height: '28px', lineHeight: '10px', textAlign: 'center', verticalAlign: 'middle' }}>
+                  <img title='mail' src={mail} alt='mail' style={{ width: '100%', height: '100%', objectFit: 'contain', verticalAlign: 'middle'}}/></i>
                 <span className="paddin shrinkTxt" style={{'fontSize': isMobile ?  '18px' : '19px'}}>bobanradonic@gmail.com</span>
                 </p>
                  
 
-                <p style={{paddingBottom: '10px'}}> 
-                <i><img title='fon' src={phone} alt='phone' style={{width: '30px', height: '30px', marginRight: '5px'}}/></i>
-                <span className="paddin">+381 60 02-02-02-8</span>
-                </p>
-                
-
+                <p style={{paddingBottom: '30px'}}> 
+                {/* <i><img title='fon' src={phone} alt='phone' style={{width: '30px', height: '30px', marginRight: '5px'}}/></i> */}
+                <i style={{ display: 'inline-block', width: '35px', height: '28px', lineHeight: '10px', textAlign: 'center', verticalAlign: 'middle' }}>
+    <img src={phone} alt='phone' style={{ width: '100%', height: '100%', objectFit: 'contain', verticalAlign: 'middle' }} />
+</i>
+<span className="paddin" style={{fontSize: 'smaller'}}>+381 60 02-02-02-8</span> 
+                </p>                
                 {/* <p style={{paddingBottom: '20px'}}> 
                 <i><img title='linkedin' src={linkedin} alt='linkedin' style={{width: '30px', height: '30px', marginRight: '5px'}}/></i>
                 <span className="paddin">Slobodan Radonic</span>
                 </p> */}
                 {/* linkedin linkove ubaciti  */}
-
-                <p><div style={{display: 'flex'}}>
-                <i><img title='addres' src={addres} alt='phone' style={{width: '30px', height: '30px', marginRight: '5px'}}/></i>
-                <span className="paddin">Vuka Karadžića 15<br/> 21400 Bačka Palanka, {language === 'en' ? 'Serbia' : 'Srbija'}</span>
+                <p><div style={{display: 'flex', paddingBottom: '30px'}}>
+                <i>&nbsp;</i>
+                <span>&nbsp;</span>
                 </div>
                 </p>
 

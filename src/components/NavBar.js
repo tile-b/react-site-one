@@ -18,7 +18,7 @@ const NavBar = ({language, isMobile, setLanguage, toggleLanguage}) => {
             <div className='logoDiv'>
                 {isMobile ? (
                   <span><Link to="/" className='customLink'>
-                  <img src={logoP} alt="pm_logo" style={{ objectFit: 'cover', width: '350px',maxWidth: '100%',minWidth: '250px',height: 'auto',}} />
+                  <img src={logoP} alt="pm_logo" style={{ objectFit: 'cover', width: '250px',maxWidth: '100%',minWidth: '250px',height: 'auto',}} />
                   </Link>
                   </span> ):(
                   <span><Link to="/" className='customLink'>
