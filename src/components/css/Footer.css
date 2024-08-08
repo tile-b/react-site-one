@@ -2,7 +2,7 @@
     background-color: #0d1724;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 100px;
     flex-wrap: wrap;
     z-index: 10;
@@ -28,3 +28,18 @@
 color: white;
 margin: 10px 10px 20px 80px;
 }
+
+
+/* footer span{
+  display: inline-flex;
+}
+footer span:nth-child(even){
+  overflow: hidden;
+  transition:ease-in-out 0.5s;
+  letter-spacing: -1em;
+}
+
+footer:hover span:nth-child(even){
+letter-spacing: 0;
+} */
+

@@ -10,6 +10,7 @@ import './css/Modal.css'
 import Pdf110 from './pdf/Pdf110';
 import Pdf80p from "./pdf/Pdf80p";
 import Pdf125s from "./pdf/Pdf125s";
+import Pdf120bw from "./pdf/Pdf120bw";
 
 
 const Products = ({language, toggleLanguage}) => {
@@ -45,7 +46,7 @@ const Products = ({language, toggleLanguage}) => {
 <a href="#plavi"><button>80BW</button></a>
 <a href="#zeleni"><button>80P</button></a>
 <a href="#debeli"><button>110BW</button></a>
-<a href="#120"><button>120BW</button></a>
+<a href="#novi"><button>120BW</button></a>
 <a href="#krem"><button>125S</button></a>
 </div>
 
@@ -157,7 +158,7 @@ Final appearance after transfering on textil - MATTE.<br/><br/>
  </div>
 
 {/* 120 */}
- <div className="okvir" id="120">
+ <div className="okvir" id="novi">
 
  <div className="box" style={{display: 'flex', justifyContent: 'center'}}><img className="bImg" src={bw80} alt="bw120" ></img></div>
 
@@ -178,7 +179,7 @@ Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
 &nbsp;&nbsp;&nbsp;200 Sheets 100 x 70 cm<br/>
 &nbsp;&nbsp;&nbsp;400 Sheets 50 x 70 cm<br /><br />
 <i>*other sizes are available on customer request</i></p>
-<Pdf125s/>
+<Pdf120bw/>
 </div>
 
  </div>
@@ -187,8 +188,6 @@ Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
  
  {/* kremPC */}
  <div className="okvir" id="krem">
-
- <div className="box" style={{display: 'flex', justifyContent: 'center'}}><img className="bImg" src={p125S} alt="p125S" ></img></div>
 
 <div className="box"><h3 style={{textAlign: 'center'}}>TEXIMAX CP-e 125 S</h3><p style={{paddingRight: '90px',paddingLeft: '90px'}}>
 The high quality transfer paper for Screen printing on textile with water based inks.<br/><br />
@@ -210,6 +209,8 @@ Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
 <Pdf125s/>
 </div>
 
+
+<div className="box" style={{display: 'flex', justifyContent: 'center'}}><img className="bImg" src={p125S} alt="p125S" ></img></div>
  </div>
 
  </>
@@ -219,11 +220,11 @@ Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
   <>
   {/*  mobile */}
 <div className="topnav stickyElementM" style={{width: '90%',marginBottom: '100px'}}>
-<a href="#plavi"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>80BW</button></a>
-<a href="#zeleni"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>80P</button></a>
-<a href="#debeli"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>110BW</button></a>
-<a href="#debeli"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>120BW</button></a>
-<a href="#krem"><button style={{textAlign: 'center',fontSize: '13px', width: '20%',height: '60%',margin: '0 5px'}}>125S</button></a>
+<a href="#plavi"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>80BW</button></a>
+<a href="#zeleni"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>80P</button></a>
+<a href="#debeli"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>110BW</button></a>
+<a href="#novi"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>120BW</button></a>
+<a href="#krem"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>125S</button></a>
 </div>
 
 {/* plaviM */}
@@ -304,7 +305,7 @@ Final appearance after transfering on textil - <b>MATTE.</b><br/><br/>
  </div>
 
 {/* 120 */}
- <div id="120" className="okvirM">
+ <div id="novi" className="okvirM">
 <div><h3 style={{textAlign: 'center'}}>TEXIMAX CP-e 120BW</h3><p style={{paddingRight: '30px',paddingLeft: '30px'}}>
  The high quality transfer paper for Screen printing on textile with water based inks.<br/><br />
 <b>Properties:</b><br />
@@ -322,7 +323,7 @@ Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
 &nbsp;&nbsp;&nbsp;200 Sheets 100 x 70 cm<br/>
 &nbsp;&nbsp;&nbsp;400 Sheets 50 x 70 cm<br /><br />
 <i>*other sizes are available on customer request</i></p>
-<Pdf125s/>
+<Pdf120bw/>
 
 </div>
 <div className="okvirSlikeM"><img src={bw80} alt="bw120" style={{width: '60%'}} ></img></div>

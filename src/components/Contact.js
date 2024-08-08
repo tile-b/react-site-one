@@ -57,7 +57,7 @@ return (
 
 <div className='my-div' style={{'margin': isMobile ? '0px 5px' : '0px 50px'}}>
 
-<h2><b style={{fontSize: '30px'}}>Slobodan Radonic <i style={{fontSize: '22px'}}>{language === 'en' ? '(Technical Director)' : '(Tehnicki Direktor)'}</i></b><br />
+<h2><b style={{fontSize: '30px'}}>Slobodan Radonić <i style={{fontSize: '22px'}}>{language === 'en' ? '(Technical Director)' : '(Tehnicki Direktor)'}</i></b><br />
 <br /><br/>
 {/* Tehnicki direktor */}
                 <p style={{paddingBottom: '30px'}}> 

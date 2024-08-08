@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './css/Footer.css';
+import logoT from './pics/logoT.png'
 
 
 
@@ -84,6 +85,18 @@ function Footer({isMobile,language}) {
       )}
 
     <footer className='footer' style={footerStyle}>
+
+      <span style={{display: 'inline-block', width: '40px', height: '40px',paddingRight: '5px'}}>
+        <a href='https://github.com/tile-b'  target="_blank" rel="noopener noreferrer">
+      <img style={{
+        width: '100%',height: '100%',
+        objectFit: 'contain', 
+        filter: 'drop-shadow(0 0 0.5px rgba(255, 255, 255, 0.5))',
+        cursor:'pointer'
+        }} src={logoT} alt='T'></img></a>
+      </span>
+    {/* <span style={{fontSize:'10px'}}>&nbsp;made by Tile</span> */}
+
       <span style={{ marginLeft: 'auto' ,marginRight: '40px'}}>&copy; 2024 Powermax d.o.o Backa Palanka {language === 'en' ?"All rights reserved" : "Sva prava zadrzana"}</span>
     </footer>
 
