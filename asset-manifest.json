@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/react-site-one/static/css/main.378bbed8.css",
-    "main.js": "/react-site-one/static/js/main.e73ebcca.js",
+    "main.css": "/react-site-one/static/css/main.d8bdcf6d.css",
+    "main.js": "/react-site-one/static/js/main.74b3cc25.js",
     "static/media/peelS.png": "/react-site-one/static/media/peelS.ec1eac2d31c63eb639a6.png",
     "static/media/saturatedPaper.png": "/react-site-one/static/media/saturatedPaper.e4cb0fe2b022c554555b.png",
+    "static/media/bw110Pic.png": "/react-site-one/static/media/bw110Pic.c72299eac68b40836f2e.png",
+    "static/media/cp80pPic.png": "/react-site-one/static/media/cp80pPic.a8e1887aa282a2e1fc66.png",
     "static/media/bw80Pic.png": "/react-site-one/static/media/bw80Pic.fbbce6babfe50d9e67a3.png",
-    "static/media/bw110Pic.png": "/react-site-one/static/media/bw110Pic.fa064ef07b58ee7bef2b.png",
-    "static/media/cp80pPic.png": "/react-site-one/static/media/cp80pPic.d6901d3bf13fab024503.png",
-    "static/media/cp125sPic.png": "/react-site-one/static/media/cp125sPic.2c7ea047832a160a25a4.png",
+    "static/media/bw120Pic.png": "/react-site-one/static/media/bw120Pic.702518e05d88f91ab73e.png",
+    "static/media/cp125sPic.png": "/react-site-one/static/media/cp125sPic.1854a5c9678375563d20.png",
+    "static/media/logoT.png": "/react-site-one/static/media/logoT.b719966616eaa8f476dd.png",
     "static/media/flagSrb.png": "/react-site-one/static/media/flagSrb.fd21a466d21fd9e377ce.png",
     "static/media/krem.png": "/react-site-one/static/media/krem.6b9fb6f6beb9bd0c2d5d.png",
     "static/media/125S.pdf": "/react-site-one/static/media/125S.9d7a54ce6c07fb4edd47.pdf",
@@ -17,15 +19,16 @@
     "static/media/TransferPaper4.png": "/react-site-one/static/media/TransferPaper4.f6b1b0736c13c2c80c4f.png",
     "static/media/110BW.pdf": "/react-site-one/static/media/110BW.e837f1f2649c723bf204.pdf",
     "static/media/80P.pdf": "/react-site-one/static/media/80P.86bbc9b56734b5469576.pdf",
+    "static/media/120BW.pdf": "/react-site-one/static/media/120BW.eb625968041479d44f3d.pdf",
     "static/media/TransferPaper.png": "/react-site-one/static/media/TransferPaper.0aa53036d8b40600069c.png",
     "static/media/scrll.png": "/react-site-one/static/media/scrll.5ffb5406e904ee35e696.png",
     "static/media/flagEng.png": "/react-site-one/static/media/flagEng.d629e0e05d763ab2b698.png",
     "index.html": "/react-site-one/index.html",
-    "main.378bbed8.css.map": "/react-site-one/static/css/main.378bbed8.css.map",
-    "main.e73ebcca.js.map": "/react-site-one/static/js/main.e73ebcca.js.map"
+    "main.d8bdcf6d.css.map": "/react-site-one/static/css/main.d8bdcf6d.css.map",
+    "main.74b3cc25.js.map": "/react-site-one/static/js/main.74b3cc25.js.map"
   },
   "entrypoints": [
-    "static/css/main.378bbed8.css",
-    "static/js/main.e73ebcca.js"
+    "static/css/main.d8bdcf6d.css",
+    "static/js/main.74b3cc25.js"
   ]
 }
