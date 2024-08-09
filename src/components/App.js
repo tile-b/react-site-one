@@ -67,7 +67,7 @@ const App = () => {
 
         <Routes>
           <Route index element={<Home language={language} toggleLanguage={toggleLanguage} isMobile={isMobile}/>} />
-          <Route path="/react-site-one" element={<Home language={language} toggleLanguage={toggleLanguage} />} />
+          <Route path="/react-site-one" element={<Home language={language} toggleLanguage={toggleLanguage} isMobile={isMobile}/>} />
           <Route path="/contact" element={<Contact language={language} toggleLanguage={toggleLanguage}  isMobile={isMobile} />} />
           <Route path="/products" element={<Products language={language} toggleLanguage={toggleLanguage} />} />
           <Route path="*" element={<Home />} />

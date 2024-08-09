@@ -20,7 +20,7 @@ const Products = ({language, toggleLanguage}) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1268); // Adjust the breakpoint as needed
+      setIsMobile(window.innerWidth <= 1068); // Adjust the breakpoint as needed
     };
 
     handleResize(); // Set initial state
@@ -251,7 +251,7 @@ Final appearance after transfering on textil - <b>MATTE.</b><br/><br/>
 
 
 </div>
-<div className="okvirSlikeM"><img src={bw80} alt="bw80" style={{width: '60%'}} ></img></div>
+<div className="okvirSlikeM"><img src={bw80} alt="bw80" style={{width: '60%',objectFit:'contain'}} ></img></div>
  </div>
 
  {/* zeleniM */}

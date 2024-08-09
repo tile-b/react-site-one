@@ -40,7 +40,8 @@ return (
                 {/* +381 60 02-02-02-8  dodaj link ka linkedinu*/}
 
                 <p style={{paddingBottom: '30px'}}> 
-                <i style={{ display: 'inline-block', width: '35px', height: '28px', lineHeight: '10px', textAlign: 'center', verticalAlign: 'middle' }}><a href="https://www.linkedin.com/in/gligorije-borocki-30574b20a/?originalSubdomain=rs"   target="_blank" rel="noopener noreferrer" >
+                <i style={{ display: 'inline-block', width: '35px', height: '28px', lineHeight: '10px', textAlign: 'center', verticalAlign: 'middle' }}>
+                  <a href="https://www.linkedin.com/in/gligorije-borocki-30574b20a/?originalSubdomain=rs"   target="_blank" rel="noopener noreferrer" >
                 <img title='linkedin' src={linkedin} alt='linkedin' style={{ width: '100%', height: '100%', objectFit: 'contain', verticalAlign: 'middle'}}/>
                 </a></i>
                 <span className="paddin"><a style={{textDecoration: 'none',color: '#24569b'}}
