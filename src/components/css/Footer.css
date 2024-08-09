@@ -28,7 +28,14 @@
 color: white;
 margin: 10px 10px 20px 80px;
 }
-
+.laptopFooter{
+  font-size: smaller;
+}
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
+  .laptopFooter{
+    font-size: medium;
+  }
+}
 
 /* footer span{
   display: inline-flex;

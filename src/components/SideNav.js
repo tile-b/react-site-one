@@ -9,7 +9,7 @@ function SideNav({language,setLanguage}) {
   const [navWidth, setNavWidth] = useState(0);
 
   const openNav = () => {
-    setNavWidth(250);
+    setNavWidth(200);
   };
   const closeNav = () => {
     setNavWidth(0);

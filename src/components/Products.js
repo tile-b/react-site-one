@@ -220,11 +220,11 @@ Final appearance after transfering on textil - <b>GLOSSY.</b><br/><br/>
   <>
   {/*  mobile */}
 <div className="topnav stickyElementM" style={{width: '90%',marginBottom: '100px'}}>
-<a href="#plavi"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>80BW</button></a>
-<a href="#zeleni"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>80P</button></a>
-<a href="#debeli"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>110BW</button></a>
-<a href="#novi"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>120BW</button></a>
-<a href="#krem"><button style={{textAlign:'center',fontSize:'8px',width:'17%',margin: '0 3px',fontWeight:'bold'}}>125S</button></a>
+<a href="#plavi"><button style={{textAlign:'center',fontSize:'10px',width:'18%',margin: '0 3px',fontWeight:'bold'}}>80BW</button></a>
+<a href="#zeleni"><button style={{textAlign:'center',fontSize:'10px',width:'18%',margin: '0 3px',fontWeight:'bold'}}>80P</button></a>
+<a href="#debeli"><button style={{textAlign:'center',fontSize:'10px',width:'18%',margin: '0 3px',fontWeight:'bold'}}>110BW</button></a>
+<a href="#novi"><button style={{textAlign:'center',fontSize:'10px',width:'18%',margin: '0 3px',fontWeight:'bold'}}>118BW</button></a>
+<a href="#krem"><button style={{textAlign:'center',fontSize:'10px',width:'18%',margin: '0 3px',fontWeight:'bold'}}>125S</button></a>
 </div>
 
 {/* plaviM */}
