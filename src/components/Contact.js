@@ -1,12 +1,12 @@
 import React from 'react';
 import phone from './pics/phone.png'
 import mail from './pics/email.png'
-import addres from './pics/location.png'
+// import addres from './pics/location.png'
 import linkedin from './pics/linkedin.png'
 import './css/Contact.css';
-import { Link } from 'react-router-dom';
-import ContactForm from '../ContactForm';
-import { useState } from 'react';
+// import { Link } from 'react-router-dom';
+// import ContactForm from '../ContactForm';
+// import { useState } from 'react';
 
 
 const Contact = ({ language, toggleLanguage,isMobile}) => {
@@ -92,7 +92,7 @@ return (
 </div>
 
   {/*Upit Forma*/}
-  <div className='my-div' style={{'margin': isMobile ? '0px 5px' : '0px 50px'}}>
+  {/* <div className='my-div' style={{'margin': isMobile ? '0px 5px' : '0px 50px'}}>
     <div className='upit'>
       <h2 style={{display: 'flex', justifyContent: 'center'}}>{language === 'en' ? 'Direct Contact' : 'Direktan Kontakt'}</h2>
       <form>
@@ -105,7 +105,7 @@ return (
         <button className='button' type="submit">{language === 'en' ? 'Send' : 'Pošalji'}</button>
       </form>
     </div>
-</div>
+</div> */}
     </div>
 
   

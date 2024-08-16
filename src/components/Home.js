@@ -117,7 +117,7 @@ Pogodni za visebojnu stampu.
 
 </p>
 <p style={{paddingLeft: '30px'}}>
-Vise o Proizvodima pogledajte <Link to="/products">ovde</Link>.</p>
+Vise o Proizvodima pogledajte <Link to="/products" style={{textDecoration: 'none'}}>ovde</Link>.</p>
 
 <p style={{paddingLeft:'15px'}}><b>
 Zašto odabrati Powermax d.o.o.?</b></p>
